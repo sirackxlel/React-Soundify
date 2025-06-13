@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+export { default as useSoundifyAI } from './useSoundifyAI';
+export { SoundifyProvider } from './SoundifyProvider';
+export { default as SoundButton } from './components/SoundButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
